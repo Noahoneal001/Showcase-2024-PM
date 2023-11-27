@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+section{
+    background-color: antiquewhite;
+    color: gray;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+nav.mainNavBar {
+    display: flex;
+    background-color: antiquewhite;
+    color: gray;
+    padding: 10px;
+    justify-content: flex-start;
+
+}
+
+img.jurassicParkLogo {
+    height: 132px;
+    width: 124px;
+}
