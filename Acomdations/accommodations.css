@@ -1,0 +1,178 @@
+body {
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+section {
+    background-color: antiquewhite;
+    color: black;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+img.jurassicParkLogo {
+    height: 132px;
+    width: 124px;
+}
+
+nav.mainNavBar {
+    display: flex;
+    background-color: antiquewhite;
+    color: gray;
+    padding: 10px;
+    justify-content: space-around;
+
+}
+
+.mainNavBar a {
+    align-self: center;
+}
+
+nav.subNavBar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stayLeft {
+    order: 0;
+}
+
+section.stayRight {
+    display: flex;
+    flex-direction: column;
+}
+
+section.stay1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+img.stayLeft {
+    width: 394px;
+    height: 395px;
+}
+
+.stay2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+img.stayRight {
+    width: 50%;
+    height: 50%;
+}
+
+img.secondImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section.facilities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.facilities section {
+
+}
+
+section.kidsClubText {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    flex-wrap: wrap-reverse;
+}
+
+.kidsClub img {
+    align-self: flex-start;
+}
+
+section.roomServiceText {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.roomService img {
+    align-self: flex-start;
+}
+
+section.fitnessCenterText {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.fitnessCenter img {
+    align-self: flex-start;
+}
+
+section.spaText {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.spa img {
+    align-self: flex-start;
+}
+
+section.standardButtonMain {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.standardButtonMain img {
+    width: 20%;
+    height: 20%;
+    flex-grow: 0;
+    object-fit: contain;
+    align-self: flex-start;
+}
+
+.standardButtonMain {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.deluxeButtonMain {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.luxuryButtonMain {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.campButtonMain {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.standardImageMain {
+
+}
+
+.deluxeImageMain {
+
+}
+
+.luxuryImageMain {
+
+}
+
+.campImageMain {
+    
+}
