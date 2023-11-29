@@ -36,7 +36,7 @@ section.accomodationsStayRight {
     flex-direction: column;
 }
 
-section.jurassicStay1 {
+section.accomodationsStay1 {
     display: flex;
     justify-content: space-between;
 }
@@ -46,36 +46,17 @@ img.accomodationsStayLeft {
     height: 395px;
 }
 
-.jurassicStayContent2 {
+.accomodationsStay2 {
 display: flex;
 }
 
-img.accomodationsMainImage3 {
+img.accomodationsStayRight {
     width: 50%;
     height: 50%;
 }
 
-img.accomodationsMainImage4 {
+img.accomodationsSecondImage {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-
-h1[href$="header"] {
-    display: flex;
-    justify-content: center;
-}
-
-.hotelFacilitiesHeader {
-
-}
-
-.jurassicStayContent1 {
-    display: flex;
-    flex-direction: row;
-}
-
-section.jurassicStayContentText1 {
-    display: flex;
-    flex-direction: column;
 }
