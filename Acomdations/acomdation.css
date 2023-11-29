@@ -10,7 +10,12 @@ section{
     color: black;
     padding: 10px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+}
+
+img.jurassicParkLogo {
+    height: 132px;
+    width: 124px;
 }
 
 nav.mainNavBar {
@@ -22,28 +27,28 @@ nav.mainNavBar {
 
 }
 
-section.jurassicStayContent1 {
+.accomodationsStayLeft {
+    order: 0;
+}
+
+section.accomodationsStayRight {
+    display: flex;
+    flex-direction: column;
+}
+
+section.jurassicStay1 {
     display: flex;
     justify-content: space-between;
 }
 
-img.jurassicParkLogo {
-    height: 132px;
-    width: 124px;
+img.accomodationsStayLeft {
+    width: 394px;
+    height: 395px;
 }
 
 .jurassicStayContent2 {
 display: flex;
 
-}
-
-.jurassicStayText2 {
-    
-}
-
-img.accomodationsMainImage2 {
-    width: 394px;
-    height: 395px;
 }
 
 img.accomodationsMainImage3 {
