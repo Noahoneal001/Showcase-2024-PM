@@ -1,8 +1,8 @@
+/* This part of the code is for changing everything of a type of element (This includes the body). */
+
 body {
     display: flex;
-
     flex-direction: column;
-
 }
 
 section {
@@ -10,9 +10,9 @@ section {
     color: black;
     padding: 10px;
     display: flex;
-    flex-direction: row;
-    align-content: center;
 }
+
+/* This part of the code is for the MAIN NAV BAR. */
 
 img.jurassicParkLogo {
     height: 132px;
@@ -31,6 +31,8 @@ nav.mainNavBar {
 .mainNavBar a {
     align-self: center;
 }
+
+/* This part of the code is for OUR NAV BAR (aka the one for accommodations */
 
 nav.subNavBar {
     display: flex;
@@ -78,10 +80,6 @@ section.facilities {
     align-items: center;
 }
 
-.facilities section {
-
-}
-
 section.kidsClubText {
     display: flex;
     flex-direction: column;
@@ -126,15 +124,8 @@ section.spaText {
 section.standardButtonMain {
     display: flex;
     flex-direction: column;
+    align-items: stretch;
     
-}
-
-.standardButtonMain img {
-    width: 20%;
-    height: 20%;
-    flex-grow: 0;
-    object-fit: contain;
-    align-self: flex-start;
 }
 
 .standardButtonMain {
@@ -161,18 +152,18 @@ section.standardButtonMain {
     align-self: flex-start;
 }
 
-.standardImageMain {
+.standardButtonMain img{
 
 }
 
-.deluxeImageMain {
+.deluxeButtonMain img {
 
 }
 
-.luxuryImageMain {
+.luxuryImageMain img {
 
 }
 
-.campImageMain {
+.campButtonMain img {
     
 }
