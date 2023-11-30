@@ -39,28 +39,36 @@ nav.subNavBar {
     justify-content: space-around;
 }
 
+/* This part of the code is for the STAY part */
+
 .stayLeft {
     order: 0;
 }
+
+/* (NOTE: [section.stayright] is what making the header on top and the text on the bottom) */
 
 section.stayRight {
     display: flex;
     flex-direction: column;
 }
 
+/* (NOTE: [section.stay1] and [.stay2] are there for spaceing and flexbox) */
+
 section.stay1 {
     display: flex;
     justify-content: space-between;
 }
 
-img.stayLeft {
-    width: 394px;
-    height: 395px;
-}
-
 .stay2 {
     display: flex;
     justify-content: space-between;
+}
+
+/* (NOTE: these two control the two images in the stay {Left = Frist Image | Right = Second Image}.) */
+
+img.stayLeft {
+    width: 394px;
+    height: 395px;
 }
 
 img.stayRight {
