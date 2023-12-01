@@ -51,6 +51,7 @@ nav.subNavBar {
 section.stayRight {
     display: flex;
     flex-direction: column;
+    font-size: 30px;
 }
 
 /* (NOTE: [section.stay1] and [.stay2] are there for spaceing and flexbox) */
@@ -63,18 +64,19 @@ section.stay1 {
 .stay2 {
     display: flex;
     justify-content: space-between;
+    font-size: 30px;
 }
 
 /* (NOTE: these two control the two images in the stay {Left = Frist Image | Right = Second Image}.) */
 
 img.stayLeft {
-    width: 394px;
+    width: 395x;
     height: 395px;
 }
 
 img.stayRight {
-    width: 50%;
-    height: 50%;
+    width: 65%;
+    height: 65%;
 }
 
 img.secondImage {
@@ -87,6 +89,7 @@ section.facilities {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 30px;
 }
 
 section.kidsClubText {
@@ -94,6 +97,7 @@ section.kidsClubText {
     flex-direction: column;
     align-self: flex-start;
     flex-wrap: wrap-reverse;
+    font-size: 23px;
 }
 
 .kidsClub img {
@@ -104,6 +108,7 @@ section.roomServiceText {
     display: flex;
     flex-direction: column;
     align-self: flex-start;
+    font-size: 23px;
 }
 
 .roomService img {
@@ -114,6 +119,7 @@ section.fitnessCenterText {
     display: flex;
     flex-direction: column;
     align-self: flex-start;
+    font-size: 23px;
 }
 
 .fitnessCenter img {
@@ -124,41 +130,38 @@ section.spaText {
     display: flex;
     flex-direction: column;
     align-self: flex-start;
+    font-size: 23px;
 }
 
 .spa img {
     align-self: flex-start;
 }
 
-section.standardButtonMain {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    
-}
-
 .standardButtonMain {
     display: flex;
     flex-direction: column;
-    align-self: flex-start;
+    font-size: larger;
 }
 
 .deluxeButtonMain {
     display: flex;
     flex-direction: column;
     align-self: flex-start;
+    font-size: larger;
 }
 
 .luxuryButtonMain {
     display: flex;
     flex-direction: column;
     align-self: flex-start;
+    font-size: larger;
 }
 
 .campButtonMain {
     display: flex;
     flex-direction: column;
     align-self: flex-start;
+    font-size: larger;
 }
 
 .standardButtonMain img{
