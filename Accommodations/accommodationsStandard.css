@@ -15,27 +15,74 @@ a {
     color: black;
 }
 
-nav.mainNavBar {
-    background-color: antiquewhite;
-    color: gray;
-    padding: 10px;
-    justify-content: space-around;
-}
 
 img.jurassicParkLogo {
     height: 132px;
     width: 124px;
 }
 
+nav.mainNavBar {
+    display: flex;
+    background-color: #D7D3C6;
+    padding: 10px;
+    justify-content: space-around;
+    border-bottom: 4px solid black;
+}
+
 .mainNavBar a {
     align-self: center;
 }
 
-nav.subNavBar {
-    background-color: #B2A696;
-    justify-content: space-around;
+
+a.mainNavButton {
+    padding: 10px;
+    color: black;
+    font-style: normal;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: larger;
 }
 
+a.specialNavButton1 {
+    font-weight: bolder;
+    font-size: larger;
+    border: 3px solid black;
+    padding: 10px;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+}
+
+a.specialNavButton2 {
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #2D3648;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: larger;
+    text-decoration: none;
+    border: 3px solid #2D3648;
+    border-radius: 10px;
+}
+
+/* This part of the code is for OUR NAV BAR (aka the one for accommodations) */
+
+nav.subNavBar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #B2A696;
+}
+
+.subNavBar a {
+    padding: 10px;
+    color: black;
+    font-style: normal;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: larger;
+}
 img.imgBanner {
 
 }
@@ -80,4 +127,5 @@ section.tier {
 
 .tier h1 {
     padding-right: 20px;
+    font-size: 500px;
 }
