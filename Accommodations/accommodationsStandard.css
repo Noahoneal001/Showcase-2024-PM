@@ -83,27 +83,38 @@ nav.subNavBar {
     font-weight: bold;
     font-size: larger;
 }
-img.imgBanner {
 
-}
+img.imgBanner {}
 
 section.standardBungalowPackage {
     background-color: #D7D3C6;
+}
+
+.standardBungalowPackage h1 {
+    font-size: 60px;
 }
 
 section.description {
     display: flex;
 }
 
-.description img {
+.description h1 {
+    font-size: 46px;
+}
 
+.description p {
+    font-size: 35px;
+}
+
+.description img {
+    padding-left: 60px;
 }
 
 section.availabilityRatingAndCost {
     display: flex;
     align-items: center;
     align-self: center;
-    justify-content: space-around;
+    justify-content: center;
     width: 75%;
 
 }
@@ -115,17 +126,63 @@ section.availabilityRatingAndCost {
     font-style: normal;
     text-decoration: none;
     color: black;
+    font-size: 48px;
+    margin-right: 80px;
 }
 
-section.tier {
+.availabilityRatingAndCost h1 {
+    padding-right: 82px;
+    font-size: 64px;
+}
+
+img.stars {
+    padding-left: 107px;
+}
+
+section.review1 {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    align-self: center;
-    justify-content: space-around;
-    width: 100%;
+    background-color: #D7D3C6;
+    height: 557px;
+    margin-bottom: 30px;
 }
 
-.tier h1 {
-    padding-right: 20px;
-    font-size: 500px;
+section.review2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #D7D3C6;
+    height: 557px;
+}
+
+img.Reviewer {
+    height: 100px;
+    width: 100px;
+    padding-top: 14px;
+    padding-bottom: 21px;
+}
+
+img.rateing {
+    padding-bottom: 24px;
+}
+
+.review1 h1 {
+    font-size: 40px;
+}
+
+.review1 p {
+    font-size: 35px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.review2 h1 {
+    font-size: 40px;
+}
+
+.review2 p {
+    font-size: 35px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
