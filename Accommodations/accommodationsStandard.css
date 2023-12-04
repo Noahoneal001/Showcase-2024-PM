@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #F8F8F0;
+    margin: 0px;
 }
 
 nav {
@@ -84,8 +85,6 @@ nav.subNavBar {
     font-size: larger;
 }
 
-img.imgBanner {}
-
 section.standardBungalowPackage {
     background-color: #D7D3C6;
 }
@@ -120,14 +119,15 @@ section.availabilityRatingAndCost {
 }
 
 .availabilityRatingAndCost a {
-    background-color: #D9D9D9;
+    background-color: #80766D;
     border: 2px solid black;
     padding: 10px;
     font-style: normal;
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 48px;
     margin-right: 80px;
+    border-radius: 10px;
 }
 
 .availabilityRatingAndCost h1 {
@@ -145,7 +145,7 @@ section.review1 {
     align-items: center;
     background-color: #D7D3C6;
     height: 557px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 section.review2 {
@@ -164,7 +164,7 @@ img.Reviewer {
 }
 
 img.rateing {
-    padding-bottom: 24px;
+    padding-bottom: 12px;
 }
 
 .review1 h1 {
