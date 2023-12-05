@@ -91,7 +91,7 @@ section.deluxeBungalowPackage {
 
 .deluxeBungalowPackage h1 {
     font-size: 60px;
-    margin-right: 40px;
+    margin-left: 40px;
 }
 
 section.description {
@@ -100,12 +100,12 @@ section.description {
 
 .description h1 {
     font-size: 46px;
-    margin-right: 40px;
+    margin-left: 40px;
 }
 
 .description p {
     font-size: 35px;
-    margin-right: 40px;
+    margin-left: 40px;
 }
 
 .description img {
