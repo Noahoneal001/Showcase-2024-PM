@@ -213,18 +213,35 @@ section.spaText {
     font-size: larger;
 }
 
-.standardButtonMain img{
+section.buttonZone {
+    display: flex;
+    justify-content: space-around;
+}
 
+.buttonZone a {
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.buttonZone p {
+max-width: 400px;
+}
+
+
+.standardButtonMain img {
+    height: 550px;
+    width: 400px;
 }
 
 .deluxeButtonMain img {
-
+    width: 400px;
 }
 
-.luxuryImageMain img {
-
+.luxuryButtonMain img {
+    width: 400px;
 }
 
 .campButtonMain img {
-    
+    width: 400px;
 }
