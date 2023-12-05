@@ -1,3 +1,5 @@
+/* It starts to breaks at 1139px small (width) */
+
 body {
     display: flex;
     flex-direction: column;
