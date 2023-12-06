@@ -105,4 +105,39 @@ section.inputs {
 section.check {
     display: flex;
     flex-direction: column;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+section.out {
+    padding-right: 20px;
+}
+
+section.adult {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+section.inputGoBrr {
+    display: flex;
+    align-items: flex-end;
+    border: 5px solid black;
+    padding: 0px;
+}
+
+.check h2 {
+    margin-top: 0px;
+    margin-bottom: 19.820px;
+}
+
+.check input {
+    margin-bottom: 10px;
+}
+
+.banner img {
+    width: 69px;
+    height: 69px;
+    align-self: center;
+    justify-self: center;
+    margin-left: 5px;
 }
