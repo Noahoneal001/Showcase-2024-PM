@@ -92,4 +92,17 @@ section.banner {
 
 .banner h1 {
     font-size: 70px;
+    width: 972px;
+}
+
+section.inputs {
+    display: flex;
+    justify-content: center;
+    background-color: #D7D3C6;
+    width: 972px;
+}
+
+section.check {
+    display: flex;
+    flex-direction: column;
 }
