@@ -95,12 +95,14 @@ section.banner {
     width: 972px;
 }
 
-section.inputs {
+/* 
+ section.inputs { 
     display: flex;
     justify-content: center;
     background-color: #D7D3C6;
     width: 972px;
-}
+} 
+*/
 
 section.check {
     display: flex;
@@ -121,13 +123,15 @@ section.adult {
 section.inputGoBrr {
     display: flex;
     align-items: flex-end;
-    border: 5px solid black;
+    border: 6px solid black;
     padding: 0px;
+    background-color: #D7D3C6;
+    border-radius: 4px;
 }
 
 .check h2 {
     margin-top: 0px;
-    margin-bottom: 19.820px;
+    margin-bottom: 10px;
 }
 
 .check input {
@@ -140,4 +144,9 @@ section.inputGoBrr {
     align-self: center;
     justify-self: center;
     margin-left: 5px;
+}
+
+section.in {
+    margin-left: 4px;
+    margin-right: 10px;
 }
