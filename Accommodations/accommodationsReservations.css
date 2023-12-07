@@ -150,3 +150,9 @@ section.in {
     margin-left: 4px;
     margin-right: 10px;
 }
+
+section.footer {
+    display: flex;
+    background-color: #B2A696;
+
+}

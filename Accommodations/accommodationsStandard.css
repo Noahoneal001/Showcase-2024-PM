@@ -194,5 +194,43 @@ img.rateing {
 }
 
 @media only screen and (max-width:1200px){
-     
+
+    body {
+        align-items: center;
+    }
+    
+    .mainNavBar a {
+        visibility: hidden;
+    }
+
+     img {
+        max-width: 100%;
+        width: 100%;
+        margin-right: 0px;
+     }
+    
+    section {
+        display: flex;
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+
+    img.description {
+        order:4 ;
+    }
+
+    .standardBungalowText * {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+    
+    .standardBungalowText p {
+        order: 1;
+    }
+
+    .standardBungalowText h1 {
+        order: 2;
+    }
+
 }
