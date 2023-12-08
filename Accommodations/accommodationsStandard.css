@@ -248,6 +248,10 @@ img.rateing {
         align-items: center;
     }
 
+    .standardBungalowPackage h1 {
+        font-size: 30px;
+    }
+
     .description img {
         padding-left: 0px;
         margin: 0px;
@@ -286,6 +290,31 @@ img.rateing {
     img.rateing {
         max-width: 434.250px;
         max-height: 88.703px;
+    }
+
+    .availabilityRatingAndCost h1 {
+        padding-right: 10px;
+        font-size: 32px;
+    }
+
+    section.header {
+        display: none;
+    }
+
+    section.review1 {
+        height: auto;
+padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    section.review2 {
+        height: auto;
+    }
+
+    .review1 h1 {
+        font-size: 40px;
+        align-self: center;
+        text-align: center;
     }
 
 }
