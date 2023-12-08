@@ -1,5 +1,9 @@
 /* It starts to breaks at 1139px small (width) */
 
+.standardBungalowTextM {
+    display: none;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -209,6 +213,10 @@ img.rateing {
 
 @media only screen and (max-width:1200px) {
 
+    .standardBungalowTextM{
+        display: flex;
+    }
+
     body {
         align-items: center;
         flex-direction: column;
@@ -244,7 +252,7 @@ img.rateing {
     }
 
     img.imgBanner{
-        height: 290.50px;
+        display: none;
     }
 
     section.standardBungalowPackage {
@@ -256,12 +264,7 @@ img.rateing {
         font-size: 30px;
     }
 
-    .description img {
-        padding-left: 0px;
-        margin: 0px;
-        width: 100%;
-        align-self: center;
-    }
+
 
     .standardBungalowText * {
         display: flex;
@@ -278,7 +281,6 @@ img.rateing {
 
     .standardBungalowText h1 {
         order: 2;
-        font-size: ;
     }
 
     img.stars {
@@ -323,3 +325,9 @@ padding-right: 10px;
     }
 
 }
+
+
+/* padding-left: 0px;
+margin: 0px;
+width: 100%;
+align-self: center; */
