@@ -243,6 +243,10 @@ img.rateing {
         max-width: 100%;
     }
 
+    img.imgBanner{
+        height: 290.50px;
+    }
+
     section.standardBungalowPackage {
         width: 100%;
         align-items: center;
@@ -274,6 +278,7 @@ img.rateing {
 
     .standardBungalowText h1 {
         order: 2;
+        font-size: ;
     }
 
     img.stars {
