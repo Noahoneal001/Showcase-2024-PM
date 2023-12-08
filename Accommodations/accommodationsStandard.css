@@ -141,8 +141,22 @@ section.availabilityRatingAndCost {
     font-size: 64px;
 }
 
+img.coin {
+    width: 95px;
+    height: 106px;
+    max-width: 95px;
+    max-height: 106px;
+}
+
 img.stars {
     padding-left: 107px;
+}
+
+.availabilityRatingAndCost section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
 }
 
 section.review1 {
@@ -193,44 +207,85 @@ img.rateing {
     margin-right: 40px;
 }
 
-@media only screen and (max-width:1200px){
+@media only screen and (max-width:1200px) {
 
     body {
         align-items: center;
-    }
-    
-    .mainNavBar a {
-        visibility: hidden;
+        flex-direction: column;
     }
 
-     img {
+    nav.mainNavBar {
+        justify-content: center;
+        max-width: 1200px;
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .mainNavBar a {
+        display: none;
+    }
+
+    /* This is temp due to not knowing how to fix it */
+
+    nav.subNavBar {
+        display: none;
+    }
+
+    img {
         max-width: 100%;
         width: 100%;
-        margin-right: 0px;
-     }
-    
+    }
+
     section {
         display: flex;
         flex-direction: column-reverse;
         max-width: 100%;
     }
 
-    img.description {
-        order:4 ;
+    section.standardBungalowPackage {
+        width: 100%;
+        align-items: center;
+    }
+
+    .description img {
+        padding-left: 0px;
+        margin: 0px;
+        width: 100%;
+        align-self: center;
     }
 
     .standardBungalowText * {
         display: flex;
         flex-direction: column;
         width: fit-content;
+        align-items: center;
     }
-    
+
     .standardBungalowText p {
         order: 1;
+        margin-right: 20px;
+        margin-left: 20px;
     }
 
     .standardBungalowText h1 {
         order: 2;
+    }
+
+    img.stars {
+        padding-left: 0px;
+        max-width: 434.250px;
+        max-height: 88.703px;
+    }
+
+    .availabilityRatingAndCost a {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    img.rateing {
+        max-width: 434.250px;
+        max-height: 88.703px;
     }
 
 }
