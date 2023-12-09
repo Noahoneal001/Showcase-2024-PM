@@ -138,9 +138,20 @@ section.availabilityRatingAndCost {
     border-radius: 10px;
 }
 
+.availabilityRatingAndCost section {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
 .availabilityRatingAndCost h1 {
-    padding-right: 82px;
+    padding-right: 80px;
     font-size: 64px;
+}
+
+img.coin {
+    width: 118px;
+    height: 106px;
 }
 
 img.stars {
@@ -239,12 +250,12 @@ img.rateing {
         display: none;
     }
 
-    section.standardBungalowPackage {
+    section.deluxeBungalowPackage {
         width: 100%;
         align-items: center;
     }
 
-    .standardBungalowPackage h1 {
+    .deluxeBungalowPackage h1 {
         font-size: 30px;
         text-align: center;
         margin-left: 0px;
@@ -298,7 +309,7 @@ img.rateing {
 
     img.coin {
         height: 53px;
-        width: 47.5px;
+        width: 59px;
     }
 
     section.header {
