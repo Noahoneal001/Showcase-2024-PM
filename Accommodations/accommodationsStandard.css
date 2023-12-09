@@ -295,11 +295,12 @@ img.rateing {
     .availabilityRatingAndCost a {
         margin-right: 0px;
         margin-bottom: 20px;
+        font-size: 24px;
     }
 
     img.rateing {
-        max-width: 434.250px;
-        max-height: 88.703px;
+        max-width: 217.125px;
+        max-height: 44.3515px;
     }
 
     .availabilityRatingAndCost h1 {
@@ -307,8 +308,18 @@ img.rateing {
         font-size: 32px;
     }
 
+    img.coin {
+        height: 53px;
+        width: 47.5px;
+    }
+
     section.header {
         display: none;
+    }
+
+    img.Reviewer {
+        height: 50px;
+        width: 50px;
     }
 
     section.review1 {
@@ -322,18 +333,22 @@ img.rateing {
     }
 
     .review1 h1 {
-        font-size: 40px;
+        font-size: 20px;
         align-self: center;
         text-align: center;
     }
 
     .review2 h1 {
-        font-size: 40px;
+        font-size: 20px;
         align-self: center;
         text-align: center;
     }
 
     .review1 p {
+        font-size: 17.5px;
+    }
+
+    .review2 p {
         font-size: 17.5px;
     }
 
