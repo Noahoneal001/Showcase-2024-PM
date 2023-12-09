@@ -190,3 +190,150 @@ img.rateing {
     margin-left: 40px;
     margin-right: 40px;
 }
+
+@media only screen and (max-width:1200px) {
+
+    .standardBungalowTextM {
+        display: flex;
+    }
+
+    body {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    nav.mainNavBar {
+        justify-content: center;
+        max-width: 1200px;
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .mainNavBar a {
+        display: none;
+    }
+
+    /* This is temp due to not knowing how to fix it */
+
+    nav.subNavBar {
+        display: none;
+    }
+
+    img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+
+    img.imgBanner {
+        display: none;
+    }
+
+    section.deluxeBungalowPackage {
+        width: 100%;
+        align-items: center;
+    }
+
+    .deluxeBungalowPackage h1 {
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .description img {
+        padding-left: 0px;
+    }
+
+    .standardBungalowText * {
+        display: none;
+    }
+
+    .standardBungalowTextM p {
+        order: 1;
+        margin-right: 20px;
+        margin-left: 20px;
+        font-size: 17.5px;
+    }
+
+    .standardBungalowTextM h1 {
+        order: 3;
+        font-size: 23px;
+    }
+
+    .standardBungalowTextM img {
+        order: 2;
+    }
+
+    img.stars {
+        padding-left: 0px;
+        max-width: 434.250px;
+        max-height: 88.703px;
+    }
+
+    .availabilityRatingAndCost a {
+        margin-right: 0px;
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+
+    img.rateing {
+        max-width: 217.125px;
+        max-height: 44.3515px;
+    }
+
+    .availabilityRatingAndCost h1 {
+        padding-right: 10px;
+        font-size: 32px;
+    }
+
+    img.coin {
+        height: 53px;
+        width: 59px;
+    }
+
+    section.header {
+        display: none;
+    }
+
+    img.Reviewer {
+        height: 50px;
+        width: 50px;
+    }
+
+    section.review1 {
+        height: auto;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    section.review2 {
+        height: auto;
+    }
+
+    .review1 h1 {
+        font-size: 20px;
+        align-self: center;
+        text-align: center;
+    }
+
+    .review2 h1 {
+        font-size: 20px;
+        align-self: center;
+        text-align: center;
+    }
+
+    .review1 p {
+        font-size: 17.5px;
+    }
+
+    .review2 p {
+        font-size: 17.5px;
+    }
+
+}
