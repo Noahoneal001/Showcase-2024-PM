@@ -215,6 +215,7 @@ section.spaText {
     display: flex;
     flex-direction: column;
     font-size: larger;
+    align-self: center;
 }
 
 .deluxeButtonMain {
@@ -234,7 +235,7 @@ section.spaText {
 .campButtonMain {
     display: flex;
     flex-direction: column;
-    align-self: flex-start;
+    align-self: center;
     font-size: larger;
 }
 
@@ -244,9 +245,12 @@ section.buttonZone {
 }
 
 .buttonZone a {
+    display: flex;
+    flex-direction: column;
     color: black;
     font-style: normal;
     text-decoration: none;
+    align-items: center;
 }
 
 .buttonZone p {
@@ -269,4 +273,8 @@ section.buttonZone {
 
 .campButtonMain img {
     max-width: 400px;
+}
+
+a h1 {
+    margin-bottom: 0px;
 }
