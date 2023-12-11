@@ -158,6 +158,10 @@ section.kidsClubText {
     align-self: flex-start;
 }
 
+.roomService {
+    display: flex;
+}
+
 section.roomServiceText {
     display: flex;
     flex-direction: column;
@@ -169,6 +173,10 @@ section.roomServiceText {
     align-self: flex-start;
 }
 
+.fitnessCenter {
+    display: flex;
+}
+
 section.fitnessCenterText {
     display: flex;
     flex-direction: column;
@@ -178,6 +186,10 @@ section.fitnessCenterText {
 
 .fitnessCenter img {
     align-self: flex-start;
+}
+
+.spa {
+    display: flex;
 }
 
 section.spaText {
