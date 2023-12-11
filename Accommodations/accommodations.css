@@ -241,7 +241,6 @@ section.spaText {
 section.buttonZone {
     display: flex;
     justify-content: space-around;
-    max-width: 600px;
 }
 
 .buttonZone a {
@@ -256,18 +255,18 @@ section.buttonZone {
 
 
 .standardButtonMain img {
-    height: 550px;
-    width: 400px;
+    max-height: 550px;
+    max-width: 400px;
 }
 
 .deluxeButtonMain img {
-    width: 400px;
+    max-width: 400px;
 }
 
 .luxuryButtonMain img {
-    width: 400px;
+    max-width: 400px;
 }
 
 .campButtonMain img {
-    width: 400px;
+    max-width: 400px;
 }
