@@ -244,6 +244,7 @@ img.rateing {
         font-size: 30px;
         text-align: center;
         margin-left: 0px;
+        margin-right: 0px;
     }
 
     .description img {
@@ -293,8 +294,8 @@ img.rateing {
     }
 
     img.coin {
-        height: 53px;
-        width: 118px;
+        height: 59px;
+        width: 102px;
     }
 
     section.header {
