@@ -142,6 +142,10 @@ section.facilities {
     font-size: 30px;
 }
 
+.kidsClub {
+    display: flex;
+}
+
 section.kidsClubText {
     display: flex;
     flex-direction: column;
