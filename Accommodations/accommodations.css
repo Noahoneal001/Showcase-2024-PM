@@ -1,6 +1,14 @@
 /* NOTE TO SELF NOAH give <a> a background color and padding. */
 /* This part of the code is for changing everything of a type of element (This includes the body). */
 
+span.phoneButton {
+    display: none;
+}
+
+.sidenav {
+    display: none;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -312,19 +320,78 @@ a p {
     margin-top: 9px;
 }
 
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
 @media only screen and (max-width:1200px) {
+
+    .sidenav {
+        display: block;
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        background-color: #D7D3C6;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
     
+    .sidenav a {
+        padding: 8px 32px 8px 8px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+        right: 20px;
+        text-align: end;
+    }
+    
+    .sidenav a:hover {
+        color: #f1f1f1;
+    }
+    
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        left: 10px;
+        font-size: 36px;
+        margin-right: 120px;
+        text-align: left;
+    }
+
+    span.phoneButton {
+        display: block;
+        position: fixed;
+        right: 0px;
+        top: 1px;
+    }
+
     body {
         display: flex;
         flex-direction: column;
     }
 
     section.header {
-        display: none; 
+        display: none;
     }
 
     nav.subNavBar {
-        display: none; 
+        display: none;
     }
 
     .mainNavBar a {
@@ -498,14 +565,29 @@ a p {
 
     section.buttonZone {
         flex-direction: column;
-        height: auto;
+        height: 100%;
         padding-left: 0px;
         padding-right: 0px;
+        justify-content: space-between;
     }
 
     section.standardButtonMain {
         padding-left: 0px;
         padding-right: 0px;
+        height: 100%;
+    }
+
+    section.deluxeButtonMain {
+        padding: 0px;
+        padding-top: 21px;
+    }
+
+    section.luxuryButtonMain {
+        padding: 0px;
+    }
+
+    section.campButtonMain {
+        padding: 0px;
     }
 
 }
