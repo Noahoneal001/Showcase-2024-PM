@@ -156,3 +156,17 @@ section.footer {
     background-color: #B2A696;
 
 }
+
+@media only screen and (max-width:1200px) {
+
+    section.header {
+        display: none;
+    }
+
+    nav.subNavBar {
+        display: none;
+    }
+
+    
+
+}
