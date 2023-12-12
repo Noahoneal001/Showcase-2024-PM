@@ -382,16 +382,56 @@ a p {
         padding-right: 10px;
     }
 
+    img.secondImage {
+        max-width: 1200px;
+    }
+
+    .facilities h1 {
+        font-size: 22.5px;
+        text-align: center;
+    }
+
+    .facilities p {
+        font-size: 15px;
+        text-align: center;
+    }
+
     section.facilitiesContent1 {
         flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     section.kidsClub {
         flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .kidsClub img {
+        max-width: 1200px;
+        width: 100%;
+        height: auto;
+    }
+
+    .kidsClub h1 {
+        font-size: 22.5px;
+        text-align: center;
+    }
+
+    .kidsClub p {
+        font-size: 15px;
+        text-align: center;
     }
 
     section.roomService {
         flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .roomService img {
+        max-width: 1200px;
     }
 
     section.facilitiesContent2 {
