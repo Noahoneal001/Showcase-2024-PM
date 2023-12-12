@@ -8,7 +8,7 @@ body {
 }
 
 section {
-    background-color: antiquewhite;
+    background-color: #F8F8F0;
     color: black;
     padding: 10px;
     /* display: flex; */
@@ -142,6 +142,18 @@ section.facilities {
     font-size: 30px;
 }
 
+.facilitiesContent1 {
+    display: flex;
+}
+
+.facilitiesContent2 {
+    display: flex;
+}
+
+.kidsClub {
+    display: flex;
+}
+
 section.kidsClubText {
     display: flex;
     flex-direction: column;
@@ -152,6 +164,10 @@ section.kidsClubText {
 
 .kidsClub img {
     align-self: flex-start;
+}
+
+.roomService {
+    display: flex;
 }
 
 section.roomServiceText {
@@ -165,6 +181,10 @@ section.roomServiceText {
     align-self: flex-start;
 }
 
+.fitnessCenter {
+    display: flex;
+}
+
 section.fitnessCenterText {
     display: flex;
     flex-direction: column;
@@ -174,6 +194,10 @@ section.fitnessCenterText {
 
 .fitnessCenter img {
     align-self: flex-start;
+}
+
+.spa {
+    display: flex;
 }
 
 section.spaText {
@@ -196,53 +220,94 @@ section.spaText {
 .deluxeButtonMain {
     display: flex;
     flex-direction: column;
-    align-self: flex-start;
     font-size: larger;
 }
 
 .luxuryButtonMain {
     display: flex;
     flex-direction: column;
-    align-self: flex-start;
     font-size: larger;
 }
 
 .campButtonMain {
     display: flex;
     flex-direction: column;
-    align-self: flex-start;
     font-size: larger;
 }
 
 section.buttonZone {
     display: flex;
     justify-content: space-around;
+    height: 700px;
+}
+
+.buttonZone section {
+    max-width: 500px;
+    max-height: 550px;
 }
 
 .buttonZone a {
+    display: flex;
+    flex-direction: column;
     color: black;
     font-style: normal;
     text-decoration: none;
+    align-items: center;
+    border: 6px solid black;
+    max-width: 800px;
+    padding: 0px;
+    border-radius: 4px;
+    background-color: #D7D3C6;
 }
-
-.buttonZone p {
-    max-width: 400px;
-}
-
 
 .standardButtonMain img {
-    height: 550px;
-    width: 400px;
+    max-height: 550px;
+    max-width: 300px;
+    width: 300px;
 }
 
 .deluxeButtonMain img {
-    width: 400px;
+    max-width: 300px;
+    width: 300px;
 }
 
 .luxuryButtonMain img {
-    width: 400px;
+    max-width: 300px;
+    width: 300px;
 }
 
 .campButtonMain img {
-    width: 400px;
+    max-width: 300px;
+    width: 300px;
+}
+
+a h1 {
+    margin-bottom: 0px;
+    max-width: 800px;
+}
+
+a h2 {
+    margin-bottom: 0px;
+    max-width: 800px;
+}
+
+a p {
+    text-align: center;
+    max-width: 214px;
+}
+
+.luxuryButtonMain a h1 {
+    margin-top: 15px;
+}
+
+.luxuryButtonMain a h2 {
+    margin-top: 10px;
+}
+
+.campButtonMain a h1 {
+    margin-top: 15px;
+}
+
+.campButtonMain a h2 {
+    margin-top: 9px;
 }
