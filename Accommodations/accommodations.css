@@ -432,22 +432,80 @@ a p {
 
     .roomService img {
         max-width: 1200px;
+        width: 100%;
+        height: auto;
+    }
+
+    .roomService h1 {
+        font-size: 22.5px;
+        text-align: center;
+    }
+
+    .roomService p {
+        font-size: 15px;
+        text-align: center;
     }
 
     section.facilitiesContent2 {
         flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     section.fitnessCenter {
         flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .fitnessCenter img {
+        max-width: 1200px;
+        width: 100%;
+        height: auto;
+    }
+
+    .fitnessCenter h1 {
+        font-size: 22.5px;
+        text-align: center;
+    }
+
+    .fitnessCenter p {
+        font-size: 15px;
+        text-align: center;
     }
 
     section.spa {
         flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .spa img {
+        max-width: 1200px;
+        width: 100%;
+        height: auto;
+    }
+
+    .spa h1 {
+        font-size: 22.5px;
+        text-align: center;
+    }
+
+    .spa p {
+        font-size: 15px;
+        text-align: center;
     }
 
     section.buttonZone {
         flex-direction: column;
+        height: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    section.standardButtonMain {
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
 }
