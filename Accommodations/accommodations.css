@@ -115,7 +115,7 @@ section.stay1 {
 /* (NOTE: these two control the two images in the stay {Left = Frist Image | Right = Second Image}.) */
 
 img.stayLeft {
-    width: 395x;
+    width: 395px;
     height: 395px;
 }
 
@@ -310,4 +310,104 @@ a p {
 
 .campButtonMain a h2 {
     margin-top: 9px;
+}
+
+@media only screen and (max-width:1200px) {
+    
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.header {
+        display: none; 
+    }
+
+    nav.subNavBar {
+        display: none; 
+    }
+
+    .mainNavBar a {
+        display: none;
+    }
+
+    section.quickFix {
+        display: none;
+    }
+
+    img.fristImage {
+        max-width: 1200px;
+    }
+
+    section.stay1 {
+        flex-direction: column;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+    }
+
+    img.stayLeft {
+        max-width: 1200px;
+        width: 100%;
+        height: auto;
+    }
+
+    .stayRight h1 {
+        font-size: 17.55px;
+        text-align: center;
+    }
+
+    .stayRight p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    section.stay2 {
+        flex-direction: column-reverse;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+    }
+
+    img.stayRight {
+        max-width: 1200px;
+        width: 100%;
+        height: auto;
+    }
+
+    p.stayLeft {
+        font-size: 15px;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    section.facilitiesContent1 {
+        flex-direction: column;
+    }
+
+    section.kidsClub {
+        flex-direction: column;
+    }
+
+    section.roomService {
+        flex-direction: column;
+    }
+
+    section.facilitiesContent2 {
+        flex-direction: column;
+    }
+
+    section.fitnessCenter {
+        flex-direction: column;
+    }
+
+    section.spa {
+        flex-direction: column;
+    }
+
+    section.buttonZone {
+        flex-direction: column;
+    }
+
 }

@@ -5,7 +5,7 @@
     margin: 0rem;
     /* padding-left:1em; */
     /* padding-top: 2em;*/
-    
+
 
 }
 
@@ -60,5 +60,9 @@ a:active {
 }
 
 a {
-    color:black;
+    color: black;
+}
+
+p {
+    color: black;
 }
