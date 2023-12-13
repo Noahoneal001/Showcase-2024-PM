@@ -135,9 +135,10 @@ img.stayRight {
 /* This controls the second banner like image */
 
 img.secondImage {
-    width: 100%;
-    height: 100%;
+    width: 85%;
+    height: 85%;
     object-fit: cover;
+    align-self: center;
 }
 
 /* this section is for the facilities */
@@ -353,8 +354,8 @@ a p {
     .sidenav a {
         padding: 8px 32px 8px 8px;
         text-decoration: none;
-        font-size: 25px;
-        color: #818181;
+        font-size: 20px;
+        color: black;
         display: block;
         transition: 0.3s;
         right: 20px;
@@ -378,7 +379,7 @@ a p {
         display: block;
         position: fixed;
         right: 0px;
-        top: 1px;
+        top: 0px;
     }
 
     body {
@@ -569,17 +570,27 @@ a p {
         padding-left: 0px;
         padding-right: 0px;
         justify-content: space-between;
+        max-width: none;
+        max-height: none;
+        align-items: center;
+    }
+
+    .buttonZone section {
+        max-width: none;
+        max-height: none;
     }
 
     section.standardButtonMain {
         padding-left: 0px;
         padding-right: 0px;
-        height: 100%;
+        height: auto;
+        
     }
 
     section.deluxeButtonMain {
         padding: 0px;
         padding-top: 21px;
+        padding-bottom: 21px;
     }
 
     section.luxuryButtonMain {
@@ -588,6 +599,7 @@ a p {
 
     section.campButtonMain {
         padding: 0px;
+        padding-top: 21px;
     }
 
 }
