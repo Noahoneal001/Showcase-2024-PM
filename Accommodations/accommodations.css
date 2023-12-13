@@ -13,6 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
+    background-color: #F8F8F0;
 }
 
 section {
@@ -135,8 +136,8 @@ img.stayRight {
 /* This controls the second banner like image */
 
 img.secondImage {
-    width: 85%;
-    height: 85%;
+    width: 75%;
+    height: 75%;
     object-fit: cover;
     align-self: center;
 }
