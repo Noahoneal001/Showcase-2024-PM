@@ -298,6 +298,30 @@ a p {
     max-width: 214px;
 }
 
+.standardButtonMain a h1 {
+    margin-top: 15px;
+}
+
+.standardButtonMain a h2 {
+    margin-top: 10px;
+}
+
+.standardButtonMain a p {
+    margin-bottom: 45px;
+}
+
+.deluxeButtonMain a h1 {
+    margin-top: 15px;
+}
+
+.deluxeButtonMain a h2 {
+    margin-top: 10px;
+}
+
+.deluxeButtonMain a p {
+    margin-bottom: 40px;
+}
+
 .luxuryButtonMain a h1 {
     margin-top: 15px;
 }
@@ -311,7 +335,7 @@ a p {
 }
 
 .campButtonMain a h2 {
-    margin-top: 9px;
+    margin-top: 10px;
 }
 
 

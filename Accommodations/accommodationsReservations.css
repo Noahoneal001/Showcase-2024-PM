@@ -1,7 +1,16 @@
+section.inputsM {
+    display: none;
+}
+
+section.bannerM {
+    display: none;
+}
+
 body {
     display: flex;
     flex-direction: column;
     margin: 0px;
+    background-color: #F8F8F0;
 }
 
 section {
@@ -61,6 +70,10 @@ a.specialNavButton2 {
     text-decoration: none;
     border: 3px solid #2D3648;
     border-radius: 10px;
+}
+
+section.header {
+    padding-right: 0px;
 }
 
 /* This part of the code is for OUR NAV BAR (aka the one for accommodations) */
@@ -151,15 +164,27 @@ section.in {
     margin-right: 10px;
 }
 
-section.footer {
-    display: flex;
-    background-color: #B2A696;
-
+img.bannerMM {
+    display: none;
 }
 
-@media only screen and (max-width:1200px) {
+@media only screen and (max-width:1200px) {   
 
-    
+    img.bannerMM {
+        display: initial;
+    }
+
+    section.inputs {
+        display: none;
+    }
+
+    section.inputsM {
+        display: flex;
+        flex-direction: row;
+        border: 6px solid black;
+        padding: 4px;
+        background-color: #D7D3C6;
+    }
 
     section.header {
         display: none;
@@ -173,9 +198,16 @@ section.footer {
         max-width: 1200px;
     }
 
+    header section {
+        padding: 0px;
+    }
+
+    section.banner {
+        height: auto;
+    }
+
     .banner section {
         font-size: 20px;
-        flex-direction: column;
     }
 
     .banner h1 {
@@ -184,6 +216,30 @@ section.footer {
         text-align: center;
     }
 
+    section.check.out {
+        padding-right: 0px;
+    }
 
+    section.bannerM {
+        display: flex;
+        background-color: #D7D3C6;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    section.inputGoBrrM {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: #F8F8F0;
+        border: 6px solid black;
+        padding: 4px;
+    }
+
+    .inputGoBrrM img {
+        width: 70px;
+        height: 70px;
+        padding-left: 10px;
+    }
 
 }
